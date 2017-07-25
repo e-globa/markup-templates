@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f8f8f8;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+}
+h1 {
+    font-size: 72px;
+    font-weight:bold;
+    color: #f8f8f8;
+}
+h2 {
+    font-size: 36px;
+    font-weight:bold;
+    color: #333;
+}h3 {
+     font-size: 30px;
+     font-weight:bold;
+     color: white;
+ }
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight:normal;
+    color: #333;
+}
+#header {
+    background-image: url("../images/header-bg.jpg");
+    height: 798px;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+#header content {
+    overflow: hidden;
+}
+#header h1{
+    padding-top:209px;
+    margin-bottom:14px;
+}
+#header ul {
+    list-style: none;
+    margin-top:43px;
+}
+#header ul  li {
+    display: inline-block;
+    margin: 0 17px;
+}
+#header ul  li a{
+    display: block;
+    width: 163px;
+    height: 50px;
+    text-decoration: none;
+    text-indent: -10000px;
+}
+.content {
+    width: 1064px;
+    margin: 0 auto;
+}
+#content {
+
+}
+.section {
+    overflow: hidden;
+    padding: 50px 0;
+}
+.left {
+    float: left;
+    width: 500px;
+}
+.right {
+    float: right;
+    width: 500px;
+}
+.section h2 {
+    margin-top: 70px;
+    margin-bottom: 22px;
+}
+#footer {
+    background-image: url("../images/footer-bg.jpg");
+    height: 531px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#footer content {
+    overflow: hidden;
+}
+#footer h2{
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight:normal;
+    font-size:36px;
+    float: left;
+    margin-top:240px;
+}
+#footer ul {
+    list-style: none;
+    float: right;
+    margin-right:7px;
+    margin-top: 241px;
+}
+#footer ul  li {
+    float: left;
+    margin-left: 35px;
+}
+#footer ul  li a{
+    display: block;
+    width: 163px;
+    height: 50px;
+    text-decoration: none;
+    text-indent: -10000px;
+}
+.twitter {
+     background-image: url("../images/u85.png");
+ }
+.google {
+    background-image: url("../images/u80.png");
+}
+.facebook {
+    background-image: url("../images/u90.png");
+}
+.twitter:hover {
+    background-image: url("../images/u85-r.png");
+}
+.google:hover {
+    background-image: url("../images/u80-r.png");
+}
+.facebook:hover {
+    background-image: url("../images/u90-r.png");
+}

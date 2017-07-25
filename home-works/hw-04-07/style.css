@@ -1,0 +1,211 @@
+#parent {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: #faf937;
+}
+#div1 {
+    background-color: #4f61fa;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    right: 0;
+}
+#div2 {
+    background-color: #fa262e;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    right: 0;
+}
+#chess1 {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background-color: #94aebb;
+}
+#i1j1 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+#i1j2 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 200px;
+}
+#i1j3 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 400px;
+}
+#i1j4 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 600px;
+}
+#i2j1 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+#i2j2 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 300px;
+}
+#i2j3 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 500px;
+}
+#i2j4 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 700px;
+}
+#chess2 {
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background-color: lightgoldenrodyellow;
+}
+#row1 {
+    position: relative;
+}
+#row2 {
+    position: relative;
+}
+.si1j1 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+.si1j2 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 200px;
+}
+.si1j3 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 400px;
+}
+.si1j4 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 600px;
+}
+.si2j1 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+.si2j2 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 300px;
+}
+.si2j3 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 500px;
+}
+.si2j4 {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 700px;
+}
+
+#chess3 {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background-color: lime;
+}
+#chess3 .row1 div {
+    display: table-cell;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+#chess3 .row2 div{
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+}
+#chess3 .row1 div:nth-child(2n+1),
+#chess3 .row2 div:nth-child(2n) {
+    background-color: fuchsia;
+}
+
+#chess4 {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background-color: yellow;
+}
+#chess4 .first td:nth-child(2n+1) {
+     background-color: cornflowerblue;
+ }
+#chess4 .second td:nth-child(2n) {
+    background-color: cornflowerblue;
+}
+#chess4 td {
+    width: 100px;
+    height: 100px;
+}

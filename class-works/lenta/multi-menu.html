@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multimenu</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            
+        }
+        ul {
+            list-style:none;
+            background-color: lightblue;
+            width:200px;
+            border: 1px solid #ff9933;
+            border-bottom:none;
+        }
+        ul li {
+            border-bottom: 1px solid #ff9933;
+            position: relative;
+        }
+        ul li a {
+            padding:10px 20px;
+            display: block;
+            color: black;
+            font-weight:bold;
+            text-decoration: none;
+        }
+        ul li:hover {
+            background-color: yellow;
+        }
+        ul li ul {
+            position: absolute;
+            left: 200px;
+            top: 0;
+            display: none;
+        }
+        ul li:hover ul {
+            display: block;
+        }
+        ul li:hover ul li ul {
+            display: none;
+        }
+        ul li ul li:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Main</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Services</a>
+            <ul>
+                <li><a href="#">Serv 1</a></li>
+                <li><a href="#">Serv 2</a></li>
+                <li><a href="#">Serv 3</a>
+                    <ul>
+                        <li><a href="#">Serv 3/1</a></li>
+                        <li><a href="#">Serv 3/2</a></li>
+                        <li><a href="#">Serv 3/3</a></li>
+                        <li><a href="#">Serv 3/4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Serv 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Info</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+</body>
+</html>

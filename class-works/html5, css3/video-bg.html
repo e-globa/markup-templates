@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video and Audio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -100;
+            display: block;
+            background-image: url(video/poster.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        #fon {
+            position: fixed;
+            top: 50px;
+            right: 400px;
+            width:200px;
+            height:200px;
+            border-radius: 15px;
+            background-color: rgba(100,0,200, 0.5);
+        }
+
+
+    </style>
+</head>
+<body>
+<video width="400" height="300" autoplay loop muted poster="video/flowers.mp4">
+    <source src="video/flowers.mp4" type='video/ogg; codecs="theora, vorbis"'>
+    <source src="video/flowers.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    <source src="video/flowers.webm" type='video/webm; codecs="vp8, vorbis"'>
+</video>
+<div id="fon">
+    <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+        ever since the 1500s, when an unknown printe</p>
+    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+    ever since the 1500s, when an unknown printe
+</div>
+</body>
+</html>

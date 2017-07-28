@@ -1,0 +1,162 @@
+body{
+    background-color: #b3bcd1;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #edf2fe;
+    height: 90px;
+}
+header section {
+    width: 960px;
+    margin: 0 auto;
+}
+.header .logo {
+    float: left;
+}
+.header .logo h1{
+    color: #1d2152;
+    font-size: 41px;
+    font-weight: bold;
+    margin-bottom:0;
+    margin-top: 13px;
+}
+.header .logo h2 {
+    margin-top: 0;
+    font-size: 13px;
+    color: #3d5ba4;
+}
+.nav {
+    margin-top: 23px;
+    /*margin-top: 34px;*/
+    float: right;
+}
+header ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-top: 0;
+    line-height: 40px;
+}
+header ul li {
+    float: left;
+    margin-left: 10px;
+}
+header ul li:first-child {
+    margin-left: 0;
+}
+header ul li a {
+    text-decoration: none;
+    color: #2f57a1;
+    font-size: 13px;
+    font-weight:bold;
+    padding: 5px 15px;
+}
+header ul li a:hover {
+    background-color: #6577ba;
+    border-radius: 15px;
+    color: black;
+}
+
+
+#footer {
+    width: 960px;
+    margin: 0 auto;
+}
+#footercontent-left {
+    float: left;
+}
+.connect-us {
+    float: right;
+}
+.nav-footer {
+    float: left;
+    margin-top: 25px;
+}
+.nav-footer ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-top: 0;
+    line-height: 40px;
+}
+.nav-footer ul li {
+    float: left;
+    margin-left: 10px;
+}
+.nav-footer ul li:first-child {
+    margin-left: 0;
+}
+.nav-footer ul li a {
+    border-left: 2px solid #dadfeb;
+    text-decoration: none;
+    color: #dadfeb;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 0px 15px;
+}
+.nav-footer ul li:first-child a {
+    border-left: none;
+    padding-left: 0px;
+}
+.copyright {
+    float: left;
+    clear: both;
+    color: #9fa8bd;
+}
+.connect-us {
+    float: right;
+    margin-top: 25px;
+}
+.connect-us h2 {
+    float: left;
+    color: #dadfeb;
+    font-size: 13px;
+}
+.connect-us ul {
+    float: right;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-top: 0;
+    line-height: 40px;
+}
+.connect-us ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+.connect-us ul li a {
+    text-decoration: none;
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-indent: -10000px;
+}
+.twitter {
+    background-image: url(images/twitter.JPG);
+}
+.facebook {
+    background-image: url(images/facebook.JPG);
+}
+.linkedin {
+    background-image: url(images/linkedin.JPG);
+}
+.email {
+    background-image: url(images/email.JPG);
+}
+.computers-bg {
+    background-color: #e8e9ea;
+    height: 500px;
+}
+#computers {
+    margin: 0 auto;
+    display: block;
+    width: 960px;
+    height: 500px;
+    background-image: url(images/computers.JPG);
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Psevdoselectors</title>
+    <style>
+        p {
+            overflow: hidden;
+        }
+        p:first-letter {
+            font-size: 80px;
+            color: red;
+            float: left;
+            margin: 10px;
+        }
+        tr:first-child {
+            background-color: #aa28a0;
+        }
+        tr:last-child {
+            background-color: #2fa7aa;
+        }
+        tr:nth-child(3) {
+             background-color: #aaa9a1;
+         }
+        tr:nth-child(odd) {
+            background-color: #aa7775;
+        }
+        tr:nth-child(even) {
+            background-color: #342eaa;
+        }
+        tr:nth-child(3n) {
+            background-color: greenyellow;
+        }
+        p:not(.text):hover {
+            color: #a4df32;
+        }
+        div {
+            background-color: #aaa93c;
+        }
+        div::before {
+            content: "Hello, world!";
+        }
+        div::after {
+            content: "";
+            height: 16px;
+            background-image: url(images/bg.png);
+            display: block;
+        }
+
+       /* a[title]{
+            color: #238baa;
+        }
+        a[title="doc"] {
+            color: red;
+        }
+        a[href^="http"] {
+            background-color: #aaa9a1;
+        }
+        a[href$="html"] {
+            background-color: lime;}*/
+        ul li {
+            list-style: none;
+        }
+        ul li a {
+            background-repeat: no-repeat;
+            padding-left: 20px;
+        }
+        a[href$="ua"] {
+            background-image: url(images/ua.png);
+        }
+        a[href$="com"] {
+            background-image: url(images/ru.png);
+        }
+        a[href$="docx"] {
+            background-image: url(images/word.png);
+        }
+        a[href$="html"] {
+            background-image: url(images/link.png);
+        }
+
+
+    </style>
+</head>
+<body>
+
+ <ul>
+     <li><a href="http://i.ua">Mail</a></li>
+     <li><a href="http://google.com" title="search">Search</a></li>
+     <li><a href="text.docx" title="doc">Doc</a></li>
+     <li><a href="page.html">Page</a></li>
+ </ul>
+<div>
+
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+        layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web
+        page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+        sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+        purpose (injected humour and the like).
+
+    </p>
+    <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+        layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web
+        page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+        sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+        purpose (injected humour and the like).
+
+    </p>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+        layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web
+        page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+        sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+        purpose (injected humour and the like).
+
+    </p>
+</div>
+
+<table width="700px" border="1">
+        <tr>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td></td>
+            <td></td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td>            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td></td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td></td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td></td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr><tr>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+            <td>as;jfd;as</td>
+        </tr>
+    </table>
+</body>
+</html>

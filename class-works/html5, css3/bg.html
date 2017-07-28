@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bg</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        #box1 {
+            background-color: rgba(0, 200, 100, 0.5);
+            filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#50ffcc77, EndColorStr=#5000cc77);
+        }
+        #box2 {
+            background-color: #6e41ea;
+            opacity: 0.5;
+            fiter: alpha(opacity=50);
+        }
+        #box3 {
+            background-color: #e3ea8b;
+            background: repeating-linear-gradient(30deg,red 0px,red 20px, transparent 20px, transparent 40px);
+        }
+        #box4 {
+            background-color: #e3ea8b;
+            background: repeating-linear-gradient(30deg,gray 0px,gray 2px, transparent 2px, transparent 20px);
+        }
+        #box5 {
+            background-color: #e3ea8b;
+            background: repeating-linear-gradient(-45deg, red 0px, red 3px, transparent 3px, transparent 18px, green 18px, green 25px, transparent 25px, transparent 50px);
+        }
+        #box6 {
+            background-color: #e3ea8b;
+            background: radial-gradient( red 0px,yellow 50px);
+
+        }
+        #box7 {
+            background-color: #e3ea8b;
+            background: repeating-radial-gradient(red 0px,red 20px, transparent 20px, transparent 40px);
+        }
+        #box8 {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+28,24bf52+38,207cca+60,e5b02b+81,7db9e8+100 */
+            background: #1e5799; /* Old browsers */
+            background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 28%, #24bf52 38%, #207cca 60%, #e5b02b 81%, #7db9e8 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 28%,#24bf52 38%,#207cca 60%,#e5b02b 81%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #1e5799 0%,#2989d8 28%,#24bf52 38%,#207cca 60%,#e5b02b 81%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+        }
+        #box9 {
+            width: 0px;
+            height: 0px;
+            border-bottom: 20px solid yellow;
+            border-left: 20px solid green;
+            border-right: 20px solid salmon;
+            border-top: 20px solid aqua;
+            margin: 50px;
+        }
+        #box10 {
+            width: 0px;
+            height: 0px;
+            /*border-bottom: 20px solid transparent;*/
+            border-left: 40px solid green;
+            border-right: 20px solid salmon;
+            border-top: 70px solid transparent;
+            margin: 50px;
+        }
+        a{
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+            background-color: #7aead4;
+            position: relative;
+        }
+        a:hover:after {
+            display: block;
+            content: '';
+            border-top: 20px solid yellowgreen;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            position: absolute;
+            bottom: -20px;
+            left: 80px;
+        }
+    </style>
+</head>
+<body>
+<a href="">link</a>
+<a href="">link</a>
+<a href="">link</a>
+<a href="">link</a>
+<a href="">link</a>
+    <div id="box1">
+        opacity 0.5
+    </div>
+    <div id="box2">
+        opacity 0.5 for block
+    </div>
+    <div id="box3">
+        linear gradient
+    </div>
+    <div id="box4">
+        linear gradient
+    </div>
+    <div id="box5">
+        linear gradient
+    </div>
+    <div id="box6">
+        radial gradient
+    </div>
+    <div id="box7">
+        radial gradient
+    </div>
+    <div id="box8">
+
+    </div>
+    <div id="box9">
+
+    </div>
+    <div id="box10"></div>
+</body>
+</html>

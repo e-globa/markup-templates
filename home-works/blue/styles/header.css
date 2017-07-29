@@ -1,0 +1,100 @@
+.navigation {
+    width: 960px;
+    margin: 0 auto;
+}
+.navigation-wrapper {
+    background-size: cover;
+    background-image: url(../images/header-nav-bg.png);
+    height: 90px;
+}
+
+.logo {
+    float: left;
+}
+.logo h1{
+    color: #1d2152;
+    font-size: 41px;
+    font-weight: bold;
+    margin-bottom:0;
+    margin-top: 13px;
+}
+.logo h2 {
+    margin-top: 0;
+    font-size: 13px;
+    color: #3d5ba4;
+}
+.nav {
+    margin-top: 23px;
+    /*margin-top: 34px;*/
+    float: right;
+}
+header ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-top: 0;
+    line-height: 40px;
+}
+header ul li {
+    float: left;
+    margin-left: 10px;
+}
+header ul li:first-child {
+    margin-left: 0;
+}
+header ul li a {
+    text-decoration: none;
+    color: #2f57a1;
+    font-size: 13px;
+    font-weight:bold;
+    padding: 5px 15px;
+}
+header ul li a:hover {
+    background-color: #6577ba;
+    border-radius: 15px;
+    color: black;
+}
+
+.computers-wrapper{
+  height: 500px;
+  background-size: auto;
+  background-image: url(../images/computers-bg.png);
+}
+.monitor-left{
+  position: absolute;
+  top: 59px;
+  left: 12px;
+  width: 440px;
+  height: 342px;
+}
+
+.monitor-right{
+  position: absolute;
+  top: 59px;
+  right: 12px;
+  width: 440px;
+  height: 342px;
+}
+
+.monitor-center{
+  position: absolute;
+  top: 20px;
+  left: 206px;
+  width: 550px;
+  height: 425px;
+}
+.slider{
+  display: block;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 450px;
+  left: 395px;
+}
+.slider ul {
+  list-style: none;
+}
+.slider ul li {
+  float: left;
+  padding: 0 20px;
+}

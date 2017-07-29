@@ -1,0 +1,102 @@
+.content{
+  background-color: #dadfeb;
+}
+.content-heading{
+  background-image: url(../images/content-heading-bg.png);
+  background-size: cover;
+  height: 125px;
+}
+.heading-text {
+  width: 550px;
+  float: left;
+}
+.heading-text p {
+  font: Arial;
+  font-size: 36px;
+  color: #132445;
+}
+.heading-btn {
+  float:right;
+  background-image: url(../images/btn-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 345px;
+  height: 100px;
+}
+.heading-btn a{
+  display: block;
+  margin: 10px 20px;
+  width: 340px;
+  height: 100px;
+  text-decoration: none;
+  font: Arial;
+  font-size: 32px;
+  color: #ffffff;
+}
+.heading-btn a span {
+  padding-left: 70px;
+}
+.cards {
+  overflow: hidden;
+}
+.card {
+  width: 180px;
+  height: 315px;
+  background-color: white;
+  float: left;
+  margin-left: 24px;
+  border-radius: 3px;
+  padding: 20px;
+}
+.card:first-child{
+  margin-left: 0;
+}
+.img {
+  margin-bottom: 20px;
+}
+h3 {
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 12px;
+}
+.link {
+  display: block;
+  background-image: url(../images/link-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 130px;
+  height: 30px;
+  padding: 3px 20px;
+}
+.link a {
+ text-decoration: none;
+ color: #2945c0;
+}
+.about {
+  overflow: hidden;
+}
+.info-cards {
+  float: left;
+  width: 500px;
+}
+.info-card {
+  float:left;
+  width: 180px;
+  height: 150px;
+  margin-right: 20px;
+  padding: 20px;
+}
+.info-img {
+  float:left;
+  margin-right: 10px;
+}
+.info-card h3 {
+  margin: 15px 0 15px 15px;
+}
+.about-company {
+  margin-top: 35px;
+}
+.about-company h3 {
+  margin-bottom: 15px;
+}
